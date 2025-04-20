@@ -5,6 +5,9 @@ public class PrintAlphabets implements Runnable {
     public void run() {
         printAlphabets();
     }
-
+    // Function to print alphabets from A to E
+    public void printAlphabets() {
+        
+    }
 
 }
