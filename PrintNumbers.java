@@ -1,4 +1,4 @@
-// This class implements Runnable to print numbers from 1 to 5
+// This class implements Runnable to print numbers from 1 to 5 using a separate thread
 
 public class PrintNumbers implements Runnable {
     @Override

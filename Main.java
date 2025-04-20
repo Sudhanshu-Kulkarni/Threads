@@ -6,11 +6,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        // Creating thread objects
+        // Create threads for numbers and alphabets
         Thread numbersThread = new Thread(new PrintNumbers());
         Thread alphabetsThread = new Thread(new PrintAlphabets());
 
-        // Starting the threads
+        // Start both threads
         numbersThread.start();
         alphabetsThread.start();
     }

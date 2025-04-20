@@ -1,4 +1,4 @@
-// This class implements Runnable to print characters from A to E
+// This class implements Runnable to print characters from A to E using a separate thread
 
 public class PrintAlphabets implements Runnable {
     @Override
